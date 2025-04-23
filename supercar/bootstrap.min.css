@@ -1,0 +1,130 @@
+.clean-post .post-body {
+    padding: 70px 100px;
+}
+
+.clean-testimonials .item {
+    margin-bottom: 0px;
+}
+
+.clean-navbar .navbar-nav .nav-link {
+    font-weight: 600;
+    font-size: .8rem;
+    text-transform: uppercase;
+}
+
+.clean-navbar.fixed-top,
+.clean-navbar.fixed-bottom {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, .1);
+}
+
+.clean-navbar .navbar-nav .nav-item {
+    padding-right: 2rem;
+}
+.clean-navbar .navbar-nav:last-child .item:last-child,
+.clean-navbar .navbar-nav:last-child .item:last-child a {
+    padding-right: 0;
+}
+
+.clean-navbar .logo {
+    font-size: 1.5rem;
+}
+
+.clean-navbar.fixed-top+.page {
+    padding-top: 62px;
+}
+
+@media (min-width: 576px) {
+    .navbar {
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
+    }
+
+    .clean-navbar.fixed-top+.page {
+        padding-top: 5rem;
+    }
+
+    .header-standard .navbar-nav .item {
+        padding-left: 20px;
+        font-size: 20px;
+    }
+
+    .header-standard {
+        background-image: url("../../assets/img/header-standard/image1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .header-standard .hero {
+        padding-top: 200px;
+        padding-bottom: 200px;
+        text-align: center;
+    }
+
+    .header-standard .hero .heading {
+        font-size: 50px;
+    }
+
+    .header-standard .hero .info {
+        margin: 30px auto 30px;
+        font-size: 20px;
+        margin-top: 30px;
+    }
+
+    .page-footer {
+        background-color: #fff;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .page-footer.dark {
+        background-color: #2b2f31;
+    }
+
+    .page-footer .footer-copyright {
+        background-color: #fff;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        text-align: center;
+        margin-top: 50px;
+        border: 1px solid #ededed;
+    }
+
+    .page-footer.dark .footer-copyright {
+        background-color: #222425;
+        border-color: #222425;
+    }
+
+    .page-footer .footer-copyright p {
+        margin: 10px;
+        color: #7d8288;
+    }
+
+    .page-footer.dark .footer-copyright p {
+        color: #ccc;
+    }
+
+    .page-footer a {
+        color: #53595f;
+        text-decoration: none;
+    }
+
+    .page-footer a:hover,
+    .page-footer a:focus {
+        text-decoration: none;
+        color: #1d2125;
+    }
+
+    .page-footer.dark a {
+        color: #d2d1d1;
+    }
+
+    .page-footer.dark a:hover,
+    .page-footer.dark a:focus {
+        color: #fff;
+    }
+
+    @media (min-width: 576px) {
+        .page-footer {
+            text-align: left;
+        }
+    }
